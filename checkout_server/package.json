@@ -1,5 +1,5 @@
 {
-  "name": "library-app",
+  "name": "checkout_server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,9 +7,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.11.10"
-  }
+  "license": "ISC"
 }

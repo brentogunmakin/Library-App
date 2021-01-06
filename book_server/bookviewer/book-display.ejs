@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Books</title>
+    <meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; width=device-width;">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+
+  <body>
+    <div class="table-title">
+      <h3>Books</h3>
+    </div>
+    <table class="table-fill">
+      <thead>
+        <tr>
+          <th class="text-left">Title</th>
+          <th class="text-left">Author</th>
+          <th class="text-left">Availability</th>
+        </tr>
+      </thead>
+      <tbody class="table-hover">
+
+        <% for(var i=0; i<data.length; i++) {%>
+          <tr>
+            <td class="text-left"> <%= data[i].Book_Title %> </td>
+            <td class="text-left"> <%= data[i].Author %> </td>
+            <td class="text-left"> Available on <%= data[i].Expected_Return_Date %> </td>
+          </tr>
+        <% } %>
+      </tbody>
+    </table>
+  </body>
+</html>
