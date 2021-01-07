@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "ejs": "^3.1.5",
     "express": "^4.17.1",
     "knex": "^0.21.15",
     "nodemon": "^2.0.7"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon booklist.js"
   },
   "author": "",
   "license": "ISC"
